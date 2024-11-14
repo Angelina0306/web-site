@@ -1,0 +1,251 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+.top_cart {
+  height: 400px;
+  width: 100%;
+  background-image: url(img/cart.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.header__catalog {
+  margin-top: 127px;
+  color: rgb(255, 255, 255);
+  font-family: Montserrat;
+  font-size: 64px;
+  font-weight: 600;
+  line-height: 70px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.cart__name-box {
+  display: flex;
+  justify-content: space-between;
+}
+
+.cart {
+  gap: 32px;
+  margin-top: 64px;
+
+  .wrapper {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 33px;
+    width: 100%;
+    margin-bottom: 41px;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &_left-image:hover {
+    transform: scale(1.1);
+    transition: all 0.3s;
+    box-shadow: 5px 5px 5px #ccc;
+  }
+
+  &-name-box {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 14px;
+  }
+
+  &_item {
+    border-top: 0.5px solid #cacdd8;
+    padding-top: 25px;
+    padding-bottom: 32px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+
+  &_left {
+    display: flex;
+    gap: 32px;
+  }
+
+  &_info {
+    width: 276px;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+  }
+
+  &_form {
+    background: #f7f6f6;
+    border-radius: 20px;
+    height: 556px;
+    width: 562px;
+    grid-column: span 4;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-top: 42px;
+    transition: all 0.3s;
+    margin-left: auto;
+  }
+  &_form:hover {
+    transform: scale(1.05);
+    box-shadow: 5px 5px 5px #cacdd8;
+  }
+
+  &_form2 {
+    padding-bottom: 120px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-end;
+    justify-content: space-around;
+    gap: 28px;
+  }
+
+  &_content {
+    grid-column: span 8;
+    width: 100%;
+  }
+
+  &_link-box {
+    font-style: normal;
+    gap: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-decoration: underline;
+    color: #000000;
+  }
+  &_link-box1:hover {
+    color: #f7f6f6;
+    text-shadow: 0 0 7px #000000;
+    transition: all 0.2s;
+  }
+
+  &_link {
+    display: flex;
+    gap: 5px;
+  }
+
+  &_link-button {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 400;
+    gap: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+    justify-content: space-around;
+  }
+
+  &_link-button:hover {
+    color: #ffffff;
+    text-shadow: 0 0 7px #000000;
+    transform: scale(1.03);
+    box-shadow: 0 0 7px #000000;
+    border-color: #ffffff;
+    transition: all 0.3s;
+  }
+
+  &_product-size {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #050505;
+  }
+
+  &_input {
+    background: #f7f6f6;
+    border: none;
+    border-radius: 6px;
+    width: 71px;
+    height: 51px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+  }
+  &_input:hover {
+    transform: scale(1.1);
+    transition: all 0.3s;
+    box-shadow: 5px 5px 5px #ccc;
+  }
+
+  &_form_mail {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 400;
+    width: 288px;
+    height: 41px;
+    background: transparent;
+    border: none;
+    border-bottom: 0.5px solid #cacdd8;
+    box-sizing: border-box;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 18px;
+  }
+
+  &_form_mail::placeholder {
+    color: #000000;
+    padding-right: 24px;
+  }
+
+  &_size {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+  }
+
+  /*Стилизация кнопок*/
+
+  &_link-button {
+    background: transparent;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 20px;
+    width: 200px;
+    height: 37px;
+    font-size: 15px;
+    line-height: 18px;
+    color: #000000;
+  }
+
+  &_button-link {
+    font-family: "Montserrat";
+    font-style: normal;
+    background: transparent;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 20px;
+    width: 288px;
+    height: 46px;
+    font-size: 15px;
+    line-height: 18px;
+    color: #000000;
+    transition: all 0.3s;
+    animation: myAnim 15s ease-in 0s 1 normal forwards;
+    animation-name: myAnim;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+  }
+
+  &_button-link:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 7px #bf1000;
+    border-color: #bf1000;
+    color: #bf1000;
+  }
+
+  /* С другими шрифтами */
+}

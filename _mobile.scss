@@ -1,0 +1,207 @@
+@media (max-width: 767px) {
+  .wrapper {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+  .logo {
+    width: 99px;
+  }
+
+  .header {
+    padding-top: 32px;
+
+    &__input {
+      display: none;
+    }
+
+    &__nav {
+      display: none;
+    }
+  }
+
+  .menu_mobile {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+  }
+
+  .baner__h1 {
+    font-size: 48px;
+    line-height: 59px;
+    text-align: center;
+    width: 343px;
+  }
+
+  .baner__text {
+    font-size: 16px;
+    line-height: 32px;
+    text-align: center;
+  }
+  .room__h2 {
+    font-size: 24px;
+    line-height: 29px;
+    padding-top: 32px;
+  }
+  .for {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+
+    &_item {
+      width: 100%;
+    }
+  }
+  .inform {
+    &__ul {
+      flex-wrap: wrap;
+    }
+    &__h3 {
+      font-size: 18px;
+      line-height: 22px;
+    }
+    &__text {
+      font-size: 14px;
+      line-height: 17px;
+    }
+    &__price1 {
+      font-size: 18px;
+      line-height: 22px;
+    }
+    &__price2 {
+      font-size: 18px;
+      line-height: 22px;
+    }
+  }
+  .catalog {
+    padding-bottom: 32px;
+    padding-top: 32px;
+    padding-left: 8px;
+  }
+
+  .footer {
+    &_wrapper {
+      display: flex;
+      gap: 100px;
+      align-items: center;
+    }
+    &_content {
+      justify-content: space-around;
+    }
+    &__h4__menu {
+      font-size: 24px;
+      line-height: 29px;
+    }
+    &_link {
+      font-size: 14px;
+      line-height: 17px;
+    }
+    &_info {
+      padding-bottom: 40px;
+    }
+    &_text {
+      font-size: 12px;
+      line-height: 15px;
+      text-align: center;
+    }
+  }
+
+  .img_inter {
+    display: none;
+  }
+  .header__catalog {
+    font-size: 48px;
+    line-height: 59px;
+    text-align: center;
+  }
+  .cart {
+    &_wrapper {
+      height: 153px;
+    }
+  }
+  .cart_content_c {
+    padding-top: 0px;
+    padding-top: 32px;
+    padding-left: 0px;
+    height: 18px;
+  }
+  .cart-name-box {
+    font-size: 14px;
+    line-height: 32px;
+    padding-right: 5px;
+    padding-bottom: 0px;
+  }
+  .catalog2 {
+    font-size: 14px;
+    line-height: 32px;
+    padding-left: 5px;
+    padding-bottom: 0px;
+  }
+  .select__top {
+    font-size: 14px;
+    line-height: 17px;
+  }
+  .span {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 32px;
+  }
+
+  .cart .wrapper {
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+  }
+
+  .select__top {
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+  }
+  .cart {
+    &_left-image {
+      display: none;
+    }
+    &_product-size {
+      font-size: 12px;
+      line-height: 15px;
+      padding-bottom: 16px;
+    }
+    &_item {
+      padding-top: 18px;
+    }
+    &_link-button {
+      font-size: 12px;
+      line-height: 15px;
+      width: 166px;
+      height: 37px;
+    }
+    &_form {
+      width: 343px;
+      height: 556px;
+    }
+    &_h3 {
+      font-size: 24px;
+      line-height: 36px;
+    }
+    &_form_mail {
+      font-size: 14px;
+      line-height: 17px;
+    }
+    &_content {
+      width: 343px;
+    }
+  }
+  .catalog {
+    &__text {
+      font-size: 12px;
+      line-height: 15px;
+    }
+  }
+
+  .footer .wrapper {
+    gap: 114px;
+  }
+}
