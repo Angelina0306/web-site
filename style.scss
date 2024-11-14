@@ -159,7 +159,8 @@ a {
   line-height: 59px;
   letter-spacing: 0%;
   text-align: center;
-  margin-top: 16px;
+  margin-top: 64px;
+  margin-bottom: 32px;
 }
 
 .for {
@@ -208,6 +209,7 @@ a {
 }
 
 .inform__h2 {
+  margin-top: 64px;
   margin-bottom: 32px;
   color: rgb(0, 0, 0);
   font-family: Montserrat;
@@ -317,6 +319,8 @@ a {
 }
 
 .catalog__h2 {
+  margin-top: 64px;
+  margin-bottom: 32px;
   color: rgb(0, 0, 0);
   font-family: Montserrat;
   font-size: 48px;
@@ -522,8 +526,8 @@ a {
   }
 }
 
-@media (max-width:525px) {
-   .inform {
+@media (max-width: 525px) {
+  .inform {
     &__ul {
       gap: 12px;
     }
@@ -534,5 +538,5 @@ a {
   }
 }
 
- @import "_mobile";
- @import "_tablet";
+@import "_mobile";
+@import "_tablet";
