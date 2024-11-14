@@ -20,6 +20,23 @@
     }
   }
 
+.filter-form {
+  padding-left: 10px;
+  display: flex;
+  align-items: center;
+  height: 910px;
+  width: 374px;
+}
+
+.select__body {
+  right: -178px;
+}
+
+.line2 {
+  top: 332px;
+  left: 96px;
+}
+
   .menu_mobile {
     display: flex;
     align-items: center;
@@ -156,9 +173,8 @@
   }
 
   .select__top {
+    flex-direction: column-reverse;
     display: flex;
-    align-items: start;
-    flex-direction: column;
   }
   .cart {
     &_left-image {
