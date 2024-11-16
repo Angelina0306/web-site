@@ -1167,7 +1167,8 @@ a {
 
 .footer .wrapper {
   display: flex;
-  gap: 192px;
+  gap: 10px;
+  justify-content: space-between;
   align-items: start;
   margin-top: 64px;
   padding-top: 67px;
@@ -1284,6 +1285,7 @@ a {
   display: flex;
   gap: 12px;
   align-items: start;
+  margin-bottom: 59px;
 }
 
 @media (max-width: 1024px) {
@@ -1496,6 +1498,7 @@ a {
     height: 37px;
   }
   .cart_form {
+    margin-left: 0;
     width: 343px;
     height: 556px;
   }
