@@ -87,7 +87,8 @@ body {
     justify-content: space-around;
     padding-top: 42px;
     transition: all 0.3s;
-    margin-left: auto;
+    padding-left: 30px;
+    padding-right: 30px;
   }
   &_form:hover {
     transform: scale(1.05);
